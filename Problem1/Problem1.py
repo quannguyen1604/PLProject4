@@ -38,3 +38,6 @@ s_dept = (('ID','NAME','REGION_ID'),
           (44,'Operations',4),
           (45,'Operations',5),
           (50,'Administration',1))
+
+
+print "\nselect * from s_dept: ", [[i[0],i[1],i[2]] for i in s_dept[1::]]
